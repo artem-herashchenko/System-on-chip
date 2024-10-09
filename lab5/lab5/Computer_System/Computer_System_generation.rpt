@@ -1,0 +1,163 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\quartus\projects18\lab5\Computer_System.qsys --block-symbol-file --output-directory=D:\quartus\projects18\lab5\Computer_System --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading lab5/Computer_System.qsys
+Progress: Reading input file
+Progress: Adding ARM_A9_HPS [altera_hps 18.1]
+Progress: Parameterizing module ARM_A9_HPS
+Progress: Adding AV_Config [altera_up_avalon_audio_and_video_config 18.0]
+Progress: Parameterizing module AV_Config
+Progress: Adding Audio_Subsystem [Audio_Subsystem 1.0]
+Progress: Reading input file
+Progress: Adding Audio [altera_up_avalon_audio 18.0]
+Progress: Parameterizing module Audio
+Progress: Adding Audio_PLL [altera_up_avalon_audio_pll 18.0]
+Progress: Parameterizing module Audio_PLL
+Progress: Adding Sys_Clk [clock_source 18.1]
+Progress: Parameterizing module Sys_Clk
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Progress: Parameterizing module Audio_Subsystem
+Progress: Adding JTAG_to_HPS_Bridge [altera_jtag_avalon_master 18.1]
+Progress: Parameterizing module JTAG_to_HPS_Bridge
+Progress: Adding LEDs [altera_avalon_pio 18.1]
+Progress: Parameterizing module LEDs
+Progress: Adding Pushbuttons [altera_avalon_pio 18.1]
+Progress: Parameterizing module Pushbuttons
+Progress: Adding System_PLL [altera_up_avalon_sys_sdram_pll 18.0]
+Progress: Parameterizing module System_PLL
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Computer_System.ARM_A9_HPS: HPS Main PLL counter settings: n = 0  m = 73
+Info: Computer_System.ARM_A9_HPS: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: Computer_System.ARM_A9_HPS: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: Computer_System.ARM_A9_HPS: "QSPI clock frequency" (desired_qspi_clk_mhz) requested 400.0 MHz, but only achieved 370.0 MHz
+Warning: Computer_System.ARM_A9_HPS: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: Computer_System.System_PLL: Refclk Freq: 50.0
+Warning: Computer_System.ARM_A9_HPS: ARM_A9_HPS.f2h_stm_hw_events must be exported, or connected to a matching conduit.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\quartus\projects18\lab5\Computer_System.qsys --synthesis=VERILOG --output-directory=D:\quartus\projects18\lab5\Computer_System\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading lab5/Computer_System.qsys
+Progress: Reading input file
+Progress: Adding ARM_A9_HPS [altera_hps 18.1]
+Progress: Parameterizing module ARM_A9_HPS
+Progress: Adding AV_Config [altera_up_avalon_audio_and_video_config 18.0]
+Progress: Parameterizing module AV_Config
+Progress: Adding Audio_Subsystem [Audio_Subsystem 1.0]
+Progress: Parameterizing module Audio_Subsystem
+Progress: Adding JTAG_to_HPS_Bridge [altera_jtag_avalon_master 18.1]
+Progress: Parameterizing module JTAG_to_HPS_Bridge
+Progress: Adding LEDs [altera_avalon_pio 18.1]
+Progress: Parameterizing module LEDs
+Progress: Adding Pushbuttons [altera_avalon_pio 18.1]
+Progress: Parameterizing module Pushbuttons
+Progress: Adding System_PLL [altera_up_avalon_sys_sdram_pll 18.0]
+Progress: Parameterizing module System_PLL
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: Computer_System.ARM_A9_HPS: HPS Main PLL counter settings: n = 0  m = 73
+Info: Computer_System.ARM_A9_HPS: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: Computer_System.ARM_A9_HPS: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: Computer_System.ARM_A9_HPS: "QSPI clock frequency" (desired_qspi_clk_mhz) requested 400.0 MHz, but only achieved 370.0 MHz
+Warning: Computer_System.ARM_A9_HPS: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: Computer_System.System_PLL: Refclk Freq: 50.0
+Warning: Computer_System.ARM_A9_HPS: ARM_A9_HPS.f2h_stm_hw_events must be exported, or connected to a matching conduit.
+Info: Computer_System: Generating Computer_System "Computer_System" for QUARTUS_SYNTH
+Info: Interconnect is inserted between master JTAG_to_HPS_Bridge.master and slave ARM_A9_HPS.f2h_axi_slave because the master is of type avalon and the slave is of type axi.
+Warning: ARM_A9_HPS.f2h_irq0: Cannot connect clock for irq_mapper.sender
+Warning: ARM_A9_HPS.f2h_irq0: Cannot connect reset for irq_mapper.sender
+Warning: ARM_A9_HPS.f2h_irq1: Cannot connect clock for irq_mapper_001.sender
+Warning: ARM_A9_HPS.f2h_irq1: Cannot connect reset for irq_mapper_001.sender
+Info: ARM_A9_HPS: "Running  for module: ARM_A9_HPS"
+Info: ARM_A9_HPS: HPS Main PLL counter settings: n = 0  m = 73
+Info: ARM_A9_HPS: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: ARM_A9_HPS: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: ARM_A9_HPS: "QSPI clock frequency" (desired_qspi_clk_mhz) requested 400.0 MHz, but only achieved 370.0 MHz
+Warning: ARM_A9_HPS: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: ARM_A9_HPS: "Computer_System" instantiated altera_hps "ARM_A9_HPS"
+Info: AV_Config: Starting Generation of Audio and Video Config
+Info: AV_Config: "Computer_System" instantiated altera_up_avalon_audio_and_video_config "AV_Config"
+Info: Audio_Subsystem: "Computer_System" instantiated Audio_Subsystem "Audio_Subsystem"
+Info: JTAG_to_HPS_Bridge: "Computer_System" instantiated altera_jtag_avalon_master "JTAG_to_HPS_Bridge"
+Info: LEDs: Starting RTL generation for module 'Computer_System_LEDs'
+Info: LEDs:   Generation command is [exec C:/quartus18/quartus/bin64/perl/bin/perl.exe -I C:/quartus18/quartus/bin64/perl/lib -I C:/quartus18/quartus/sopc_builder/bin/europa -I C:/quartus18/quartus/sopc_builder/bin/perl_lib -I C:/quartus18/quartus/sopc_builder/bin -I C:/quartus18/quartus/../ip/altera/sopc_builder_ip/common -I C:/quartus18/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/quartus18/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_LEDs --dir=C:/Users/artik/AppData/Local/Temp/alt9681_6172200956286535752.dir/0003_LEDs_gen/ --quartus_dir=C:/quartus18/quartus --verilog --config=C:/Users/artik/AppData/Local/Temp/alt9681_6172200956286535752.dir/0003_LEDs_gen//Computer_System_LEDs_component_configuration.pl  --do_build_sim=0  ]
+Info: LEDs: Done RTL generation for module 'Computer_System_LEDs'
+Info: LEDs: "Computer_System" instantiated altera_avalon_pio "LEDs"
+Info: Pushbuttons: Starting RTL generation for module 'Computer_System_Pushbuttons'
+Info: Pushbuttons:   Generation command is [exec C:/quartus18/quartus/bin64/perl/bin/perl.exe -I C:/quartus18/quartus/bin64/perl/lib -I C:/quartus18/quartus/sopc_builder/bin/europa -I C:/quartus18/quartus/sopc_builder/bin/perl_lib -I C:/quartus18/quartus/sopc_builder/bin -I C:/quartus18/quartus/../ip/altera/sopc_builder_ip/common -I C:/quartus18/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/quartus18/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=Computer_System_Pushbuttons --dir=C:/Users/artik/AppData/Local/Temp/alt9681_6172200956286535752.dir/0004_Pushbuttons_gen/ --quartus_dir=C:/quartus18/quartus --verilog --config=C:/Users/artik/AppData/Local/Temp/alt9681_6172200956286535752.dir/0004_Pushbuttons_gen//Computer_System_Pushbuttons_component_configuration.pl  --do_build_sim=0  ]
+Info: Pushbuttons: Done RTL generation for module 'Computer_System_Pushbuttons'
+Info: Pushbuttons: "Computer_System" instantiated altera_avalon_pio "Pushbuttons"
+Info: System_PLL: "Computer_System" instantiated altera_up_avalon_sys_sdram_pll "System_PLL"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "Computer_System" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: mm_interconnect_1: "Computer_System" instantiated altera_mm_interconnect "mm_interconnect_1"
+Info: irq_mapper: "Computer_System" instantiated altera_irq_mapper "irq_mapper"
+Info: irq_mapper_001: "Computer_System" instantiated altera_irq_mapper "irq_mapper_001"
+Info: rst_controller: "Computer_System" instantiated altera_reset_controller "rst_controller"
+Info: fpga_interfaces: "ARM_A9_HPS" instantiated altera_interface_generator "fpga_interfaces"
+Info: hps_io: "ARM_A9_HPS" instantiated altera_hps_io "hps_io"
+Info: Audio: Starting Generation of Audio Controller
+Info: Audio: "Audio_Subsystem" instantiated altera_up_avalon_audio "Audio"
+Info: Audio_PLL: "Audio_Subsystem" instantiated altera_up_avalon_audio_pll "Audio_PLL"
+Info: jtag_phy_embedded_in_jtag_master: "JTAG_to_HPS_Bridge" instantiated altera_jtag_dc_streaming "jtag_phy_embedded_in_jtag_master"
+Info: timing_adt: "JTAG_to_HPS_Bridge" instantiated timing_adapter "timing_adt"
+Info: fifo: "JTAG_to_HPS_Bridge" instantiated altera_avalon_sc_fifo "fifo"
+Info: b2p: "JTAG_to_HPS_Bridge" instantiated altera_avalon_st_bytes_to_packets "b2p"
+Info: p2b: "JTAG_to_HPS_Bridge" instantiated altera_avalon_st_packets_to_bytes "p2b"
+Info: transacto: "JTAG_to_HPS_Bridge" instantiated altera_avalon_packets_to_master "transacto"
+Info: b2p_adapter: "JTAG_to_HPS_Bridge" instantiated channel_adapter "b2p_adapter"
+Info: p2b_adapter: "JTAG_to_HPS_Bridge" instantiated channel_adapter "p2b_adapter"
+Info: sys_pll: "System_PLL" instantiated altera_pll "sys_pll"
+Info: reset_from_locked: "System_PLL" instantiated altera_up_avalon_reset_from_locked_signal "reset_from_locked"
+Info: Audio_Subsystem_audio_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "Audio_Subsystem_audio_slave_translator"
+Info: ARM_A9_HPS_h2f_lw_axi_master_agent: "mm_interconnect_0" instantiated altera_merlin_axi_master_ni "ARM_A9_HPS_h2f_lw_axi_master_agent"
+Info: Audio_Subsystem_audio_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "Audio_Subsystem_audio_slave_agent"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: ARM_A9_HPS_h2f_lw_axi_master_wr_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "ARM_A9_HPS_h2f_lw_axi_master_wr_limiter"
+Info: Reusing file D:/quartus/projects18/lab5/Computer_System/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: Reusing file D:/quartus/projects18/lab5/Computer_System/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: Audio_Subsystem_audio_slave_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "Audio_Subsystem_audio_slave_burst_adapter"
+Info: Reusing file D:/quartus/projects18/lab5/Computer_System/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file D:/quartus/projects18/lab5/Computer_System/synthesis/submodules/altera_avalon_st_pipeline_stage.sv
+Info: Reusing file D:/quartus/projects18/lab5/Computer_System/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/quartus/projects18/lab5/Computer_System/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: JTAG_to_HPS_Bridge_master_translator: "mm_interconnect_1" instantiated altera_merlin_master_translator "JTAG_to_HPS_Bridge_master_translator"
+Info: JTAG_to_HPS_Bridge_master_agent: "mm_interconnect_1" instantiated altera_merlin_master_agent "JTAG_to_HPS_Bridge_master_agent"
+Info: ARM_A9_HPS_f2h_axi_slave_agent: "mm_interconnect_1" instantiated altera_merlin_axi_slave_ni "ARM_A9_HPS_f2h_axi_slave_agent"
+Info: Reusing file D:/quartus/projects18/lab5/Computer_System/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: Reusing file D:/quartus/projects18/lab5/Computer_System/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: Reusing file D:/quartus/projects18/lab5/Computer_System/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: router: "mm_interconnect_1" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_1" instantiated altera_merlin_router "router_001"
+Info: cmd_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: Reusing file D:/quartus/projects18/lab5/Computer_System/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/quartus/projects18/lab5/Computer_System/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: ARM_A9_HPS_f2h_axi_slave_wr_cmd_width_adapter: "mm_interconnect_1" instantiated altera_merlin_width_adapter "ARM_A9_HPS_f2h_axi_slave_wr_cmd_width_adapter"
+Info: Reusing file D:/quartus/projects18/lab5/Computer_System/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file D:/quartus/projects18/lab5/Computer_System/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: border: "hps_io" instantiated altera_interface_generator "border"
+Info: audio_pll: "Audio_PLL" instantiated altera_pll "audio_pll"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: Computer_System: Done "Computer_System" with 52 modules, 138 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
