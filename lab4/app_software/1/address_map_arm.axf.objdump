@@ -1,0 +1,16 @@
+
+D:/quartus/projects18/lab4/app_software/1/address_map_arm.axf:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00000000 <__cs3_interrupt_vector>:
+   0:	e59f100c 	ldr	r1, [pc, #12]	; 14 <ICCEOIR+0x4>
+   4:	e59f200c 	ldr	r2, [pc, #12]	; 18 <ICCEOIR+0x8>
+
+00000008 <LOOP>:
+   8:	e5923000 	ldr	r3, [r2]
+   c:	e5813000 	str	r3, [r1]
+  10:	eafffffc 	b	8 <LOOP>
+  14:	ff200000 	.word	0xff200000
+  18:	ff200040 	.word	0xff200040
