@@ -1,0 +1,33 @@
+m255
+K4
+z2
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/master/SoC/my_coursework
+vexample_peripheral
+!s110 1704200243
+!i10b 1
+!s100 Fdc1PL<c9hoXGX_TVnlY<2
+IeUe@2nWG==X7Xbjf^@nSM2
+R0
+w1704200240
+8my_pwm.v
+Fmy_pwm.v
+!i122 0
+L0 10 89
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2021.2;73
+r1
+!s85 0
+31
+!s108 1704200243.000000
+!s107 my_pwm.v|
+!s90 my_pwm.v|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0

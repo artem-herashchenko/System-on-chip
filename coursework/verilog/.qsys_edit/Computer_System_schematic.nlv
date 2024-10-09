@@ -1,0 +1,96 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst Computer_System.JTAG_to_FPGA_Bridge.p2b -pg 1
+preplace inst Computer_System.JTAG_to_FPGA_Bridge.b2p_adapter -pg 1
+preplace inst Computer_System.ARM_A9_HPS.fpga_interfaces -pg 1
+preplace inst Computer_System.ARM_A9_HPS.arm_a9_0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.axi_ocram -pg 1
+preplace inst Computer_System.ARM_A9_HPS.clkmgr -pg 1
+preplace inst Computer_System.ARM_A9_HPS.arm_a9_1 -pg 1
+preplace inst Computer_System.JTAG_to_HPS_Bridge.fifo -pg 1
+preplace inst Computer_System.ARM_A9_HPS.clk_0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.wd_timer0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.hps_io -pg 1
+preplace inst Computer_System.ARM_A9_HPS.wd_timer1 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.f2s_periph_ref_clk -pg 1
+preplace inst Computer_System.F2H_Mem_Window_FF800000 -pg 1 -lvl 4 -y 110
+preplace inst Computer_System.ARM_A9_HPS.i2c0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.qspi -pg 1
+preplace inst Computer_System.ARM_A9_HPS.i2c1 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.i2c2 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.uart0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.i2c3 -pg 1
+preplace inst Computer_System.JTAG_to_FPGA_Bridge.timing_adt -pg 1
+preplace inst Computer_System.ARM_A9_HPS.uart1 -pg 1
+preplace inst Computer_System.JTAG_to_HPS_Bridge.b2p -pg 1
+preplace inst Computer_System.JTAG_to_HPS_Bridge.clk_rst -pg 1
+preplace inst Computer_System.JTAG_to_FPGA_Bridge.fifo -pg 1
+preplace inst Computer_System.ARM_A9_HPS -pg 1 -lvl 5 -y 510
+preplace inst Computer_System.JTAG_to_FPGA_Bridge.jtag_phy_embedded_in_jtag_master -pg 1
+preplace inst Computer_System.JTAG_to_FPGA_Bridge.clk_src -pg 1
+preplace inst Computer_System.JTAG_to_HPS_Bridge.p2b_adapter -pg 1
+preplace inst Computer_System.JTAG_to_HPS_Bridge.jtag_phy_embedded_in_jtag_master -pg 1
+preplace inst Computer_System.JTAG_to_HPS_Bridge.clk_src -pg 1
+preplace inst Computer_System.ARM_A9_HPS.L2 -pg 1
+preplace inst Computer_System.System_PLL.reset_from_locked -pg 1
+preplace inst Computer_System.ARM_A9_HPS.fpgamgr -pg 1
+preplace inst Computer_System.JTAG_to_HPS_Bridge.b2p_adapter -pg 1
+preplace inst Computer_System.ARM_A9_HPS.eosc1 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.gpio0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.eosc2 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.gpio1 -pg 1
+preplace inst Computer_System.JTAG_to_FPGA_Bridge.p2b_adapter -pg 1
+preplace inst Computer_System.F2H_Mem_Window_FF600000 -pg 1 -lvl 4 -y 30
+preplace inst Computer_System.ARM_A9_HPS.gpio2 -pg 1
+preplace inst Computer_System.System_PLL -pg 1 -lvl 1 -y 2260
+preplace inst Computer_System.ARM_A9_HPS.usb0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.axi_sdram -pg 1
+preplace inst Computer_System.ARM_A9_HPS.usb1 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.dcan0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.dcan1 -pg 1
+preplace inst Computer_System.JTAG_to_HPS_Bridge.transacto -pg 1
+preplace inst Computer_System.JTAG_to_FPGA_Bridge.transacto -pg 1
+preplace inst Computer_System.ARM_A9_HPS.nand0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.sdrctl -pg 1
+preplace inst Computer_System.ARM_A9_HPS.spim0 -pg 1
+preplace inst Computer_System.F2H_Mem_Window_00000000 -pg 1 -lvl 4 -y 250
+preplace inst Computer_System.ARM_A9_HPS.rstmgr -pg 1
+preplace inst Computer_System.JTAG_to_HPS_Bridge -pg 1 -lvl 4 -y 500
+preplace inst Computer_System.ARM_A9_HPS.spim1 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.hps_io.border -pg 1
+preplace inst Computer_System.ARM_A9_HPS.l3regs -pg 1
+preplace inst Computer_System.ARM_A9_HPS.scu -pg 1
+preplace inst Computer_System.JTAG_to_FPGA_Bridge.clk_rst -pg 1
+preplace inst Computer_System.JTAG_to_HPS_Bridge.p2b -pg 1
+preplace inst Computer_System.JTAG_to_FPGA_Bridge.b2p -pg 1
+preplace inst Computer_System.ARM_A9_HPS.timer -pg 1
+preplace inst Computer_System.ARM_A9_HPS.timer0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.f2s_sdram_ref_clk -pg 1
+preplace inst Computer_System.ARM_A9_HPS.arm_gic_0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.timer1 -pg 1
+preplace inst Computer_System.System_PLL.sys_pll -pg 1
+preplace inst Computer_System.ARM_A9_HPS.timer2 -pg 1
+preplace inst Computer_System.my_pwm_0 -pg 1 -lvl 6 -y 660
+preplace inst Computer_System.ARM_A9_HPS.sdmmc -pg 1
+preplace inst Computer_System.ARM_A9_HPS.timer3 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.bridges -pg 1
+preplace inst Computer_System.JTAG_to_HPS_Bridge.timing_adt -pg 1
+preplace inst Computer_System.ARM_A9_HPS.gmac0 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.gmac1 -pg 1
+preplace inst Computer_System.ARM_A9_HPS.sysmgr -pg 1
+preplace inst Computer_System -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst Computer_System.JTAG_to_FPGA_Bridge -pg 1 -lvl 2 -y 1880
+preplace inst Computer_System.ARM_A9_HPS.dma -pg 1
+preplace netloc EXPORT<net_container>Computer_System</net_container>(MASTER)Computer_System.sdram_clk,(MASTER)System_PLL.sdram_clk) 1 1 6 NJ 2290 NJ 2290 NJ 2290 NJ 2290 NJ 2290 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)Computer_System.system_pll_ref_clk,(SLAVE)System_PLL.ref_clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)Computer_System.gpio_pwm,(SLAVE)my_pwm_0.pwm_out) 1 0 6 NJ 730 NJ 730 NJ 730 NJ 730 NJ 730 NJ
+preplace netloc INTERCONNECT<net_container>Computer_System</net_container>(SLAVE)my_pwm_0.reset,(SLAVE)JTAG_to_FPGA_Bridge.clk_reset,(MASTER)ARM_A9_HPS.h2f_reset,(MASTER)System_PLL.reset_source,(SLAVE)F2H_Mem_Window_00000000.reset,(SLAVE)F2H_Mem_Window_FF800000.reset,(SLAVE)JTAG_to_HPS_Bridge.clk_reset,(SLAVE)F2H_Mem_Window_FF600000.reset) 1 1 5 410 580 NJ 580 1160 750 NJ 750 2090
+preplace netloc FAN_OUT<net_container>Computer_System</net_container>(SLAVE)ARM_A9_HPS.f2h_axi_clock,(SLAVE)ARM_A9_HPS.h2f_lw_axi_clock,(MASTER)System_PLL.sys_clk,(SLAVE)JTAG_to_FPGA_Bridge.clk,(SLAVE)F2H_Mem_Window_00000000.clock,(SLAVE)F2H_Mem_Window_FF800000.clock,(SLAVE)JTAG_to_HPS_Bridge.clk,(SLAVE)F2H_Mem_Window_FF600000.clock,(SLAVE)ARM_A9_HPS.h2f_axi_clock,(SLAVE)my_pwm_0.clock) 1 1 5 390 560 NJ 560 1180 580 1730 770 2110
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)Computer_System.system_pll_ref_reset,(SLAVE)System_PLL.ref_reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)ARM_A9_HPS.memory,(SLAVE)Computer_System.memory) 1 0 5 NJ 640 NJ 640 NJ 640 NJ 640 NJ
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)my_pwm_0.led_out,(SLAVE)Computer_System.led) 1 0 6 NJ 710 NJ 710 NJ 710 NJ 710 NJ 710 NJ
+preplace netloc INTERCONNECT<net_container>Computer_System</net_container>(MASTER)JTAG_to_FPGA_Bridge.master,(MASTER)ARM_A9_HPS.h2f_lw_axi_master,(SLAVE)F2H_Mem_Window_FF800000.windowed_slave,(SLAVE)F2H_Mem_Window_00000000.windowed_slave,(SLAVE)my_pwm_0.avalon_slave_0,(SLAVE)F2H_Mem_Window_FF600000.windowed_slave) 1 2 4 840 540 1140 690 NJ 690 2070
+preplace netloc EXPORT<net_container>Computer_System</net_container>(SLAVE)Computer_System.hps_io,(SLAVE)ARM_A9_HPS.hps_io) 1 0 5 NJ 600 NJ 600 NJ 600 NJ 600 NJ
+preplace netloc FAN_IN<net_container>Computer_System</net_container>(SLAVE)ARM_A9_HPS.f2h_axi_slave,(MASTER)JTAG_to_HPS_Bridge.master,(MASTER)F2H_Mem_Window_00000000.expanded_master,(MASTER)F2H_Mem_Window_FF600000.expanded_master,(MASTER)F2H_Mem_Window_FF800000.expanded_master) 1 4 1 1710
+levelinfo -pg 1 0 140 2480
+levelinfo -hier Computer_System 150 230 680 1120 1540 1880 2270 2390
